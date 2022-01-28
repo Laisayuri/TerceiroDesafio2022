@@ -1,0 +1,169 @@
+
+.body {
+    margin: auto;
+}
+
+.cabecalhoPrincipal {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: justify;
+}
+
+.row {
+    display: flex;
+    width: auto;
+    padding: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.button {
+    width: 100px;
+    height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border: none;
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #f28500;
+    color: white;
+}
+
+.exibir h1 {
+    font-size: 16px;
+    width: auto;
+    text-align: start;
+    color: #00BFFF;
+    text-align: top;
+    margin-left: 0px;
+}
+
+.resultado {
+    margin-top: 40px;
+    margin-left: -30px;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.principalResultado {
+    margin: 0 0 0 35px;
+}
+
+.botoesTabela {
+    margin: auto;
+    justify-content: end;
+}
+
+.imprimirtabela {
+    margin-top: 40px;
+    margin-right: 15px;
+    display: flex;
+    color: #00BFFF;
+}
+
+.iconeImpressora {
+    width: 25px;
+    height: 20px;
+    display: flex;
+    padding-right: 5px;
+}
+
+.salvaremexcel {
+    text-align: right;
+    margin-top: 40px;
+    display: flex;
+    color: #00BFFF;
+    width: auto;
+}
+
+.iconeSalvar {
+    width: 25px;
+    height: 20px;
+    display: flex;
+    padding-right: 5px;
+}
+
+.salvarExcel {
+    margin: 0px;
+}
+
+.table-striped {
+    border: 1px solid #cccccc;
+    text-transform: none;
+    vertical-align: middle;
+    font-size: 1rem;
+    margin: auto;
+    width: auto;
+  }
+
+.colunaFavorecidobeneficiario { 
+    width: 60px;
+    height: 40px;
+    text-align: start;
+}
+
+.colunaCpfcnpj {
+    width: 20px;
+    height: 40px;
+    text-align: start;
+}
+
+.colunaBancoispb {
+    width: 10px;
+    height: 30px;
+    text-align: start;
+}
+
+.colunaReferenciadaempresa {
+    width: 40px;
+    height: 40px;
+    text-align: start;
+}
+
+.colunaDatadopagamento {
+    width: 30px;
+    height: 40px;
+    text-align: start;
+}
+
+.colunaValor {
+    width: 30px;
+    height: 40px;
+    text-align: center;
+}
+
+.colunaTarifa {
+    width: 30px;
+    height: 40px;
+    text-align: center;
+}
+
+.columaStatusdopagamento {
+    width: 25px;
+    height: 40px;
+    text-align: start;
+}
+
+.colunaMais {
+    width: 15px;
+    height: 40px;
+    text-align: start;
+}
+
+.paginacao {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    margin-left: 5px;
+}
+
+.tabela-resultados thead th{
+    vertical-align: middle;
+    text-align: center;
+}
+
