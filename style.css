@@ -1,169 +1,137 @@
-
-.body {
-    margin: auto;
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  margin-right: 40px;
 }
 
 .cabecalhoPrincipal {
     width: 100%;
-    display: flex;
-    margin-top: 40px;
+    margin-top: 25px;
     justify-content: justify;
+    display: flex;
+}
+
+.gestaodepagamentos {
+  font-size: 18px;
+  color: black;
+  width: 100%;
+  text-align: start;
+  padding: auto;
+}
+
+.ocultar {
+  font-size: 30px;
+  width: 0 auto;
+  text-align: right;
+  padding: 5px;
+  color: #00BFFF;
+}
+
+.datadospagamentos {
+  font-size: 18px;
+  color: #696969;
+  width: 78%;
+  text-align: start;
+}
+
+.buscar {
+  margin-left: 30px;
+  color: #00BFFF;
+  background-color: white;
+  border-radius: 5px;
+  border-color: #00BFFF;
+}
+
+.consolidadoporperiodo {
+  font-size: 18px;
+  color: #696969;
+  text-align: start;
+}
+
+.semBorda {
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.iconeSetaCima {
+  width: 20px;
+}
+
+.iconeSetaBaixo {
+  width: 9px;
 }
 
 .row {
-    display: flex;
-    width: auto;
-    padding: 2px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.button {
-    width: 100px;
-    height: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    border: none;
-    display: inline-block;
-    padding: auto;
-    text-align: center;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    background-color: #f28500;
-    color: white;
-}
-
-.exibir h1 {
-    font-size: 16px;
-    width: auto;
-    text-align: start;
-    color: #00BFFF;
-    text-align: top;
-    margin-left: 0px;
-}
-
-.resultado {
-    margin-top: 40px;
-    margin-left: -30px;
-    display: flex;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.principalResultado {
-    margin: 0 0 0 35px;
-}
-
-.botoesTabela {
-    margin: auto;
-    justify-content: end;
-}
-
-.imprimirtabela {
-    margin-top: 40px;
-    margin-right: 15px;
-    display: flex;
-    color: #00BFFF;
-}
-
-.iconeImpressora {
-    width: 25px;
-    height: 20px;
-    display: flex;
-    padding-right: 5px;
-}
-
-.salvaremexcel {
-    text-align: right;
-    margin-top: 40px;
-    display: flex;
-    color: #00BFFF;
-    width: auto;
-}
-
-.iconeSalvar {
-    width: 25px;
-    height: 20px;
-    display: flex;
-    padding-right: 5px;
-}
-
-.salvarExcel {
-    margin: 0px;
+  display: flex;
+  width: 100%;
+  margin: auto;
 }
 
 .table-striped {
-    border: 1px solid #cccccc;
-    text-transform: none;
-    vertical-align: middle;
-    font-size: 1rem;
-    margin: auto;
-    width: auto;
-  }
-
-.colunaFavorecidobeneficiario { 
-    width: 60px;
-    height: 40px;
-    text-align: start;
+  border: 1px solid #cccccc;
+  text-transform: none;
+  vertical-align: middle;
+  font-size: 1rem;
+  padding: 10px;
+  margin: auto;
 }
 
-.colunaCpfcnpj {
-    width: 20px;
-    height: 40px;
-    text-align: start;
+.colunaSituacao {
+  width: 296px;
+  height: 40px;
 }
 
-.colunaBancoispb {
-    width: 10px;
-    height: 30px;
-    text-align: start;
-}
-
-.colunaReferenciadaempresa {
-    width: 40px;
-    height: 40px;
-    text-align: start;
-}
-
-.colunaDatadopagamento {
-    width: 30px;
-    height: 40px;
-    text-align: start;
+.colunaQuantidade {
+  text-align: center;
+  width: 128px;
+  height: 40px;
 }
 
 .colunaValor {
-    width: 30px;
-    height: 40px;
-    text-align: center;
+  text-align:end;
+  width: 128px;
+  height: 40px;
 }
 
-.colunaTarifa {
-    width: 30px;
-    height: 40px;
-    text-align: center;
+.titulobuscadepagamentos h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0px;
+  padding: 2px;
 }
 
-.columaStatusdopagamento {
-    width: 25px;
-    height: 40px;
-    text-align: start;
+.titulobuscadepagamentos h2 {
+  font-size: 18px;
+  margin-top: 0;
 }
 
-.colunaMais {
-    width: 15px;
-    height: 40px;
-    text-align: start;
+.button {
+  background-color: #f28500;
+  width: 180px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  border: none;
+  display: inline-block;
+  padding: 15px, 32px;
+  text-align:center;
+  border-radius: 10px;
 }
 
-.paginacao {
-    text-align: right;
-    display: flex;
-    justify-content: end;
-    margin-left: 5px;
+.container {
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-right: 10px;
+  margin-right: 100px;
 }
 
-.tabela-resultados thead th{
-    vertical-align: middle;
-    text-align: center;
+.iconeI {
+  width: 12px;
+  margin-top: -15px;
 }
 
+.exibirBuscaAvancada {
+  color: #00BFFF;
+}
