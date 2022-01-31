@@ -74,6 +74,7 @@ body {
   vertical-align: middle;
   font-size: 1rem;
   padding: 10px;  
+  margin: auto;
 }
 
 .colunaSituacao {
@@ -137,21 +138,19 @@ body {
 
 .resultado {
   margin-top: 40px;
-  margin-left: -30px;
   display: flex;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .principalResultado {
-  margin: 0 0 0 35px;
+  margin: 0 0 0 5px;
 }
 
 .botoesTabela {
   margin: auto;
   justify-content: end;
 }
-
 
 .imprimirtabela {
   margin-top: 40px;
@@ -186,14 +185,80 @@ body {
   margin: 0px;
 }
 
+.table-striped {
+  border: 1px solid #cccccc;
+  text-transform: none;
+  vertical-align: middle;
+  font-size: 1rem;
+  
+}
+
+.colunaFavorecidobeneficiario {
+  width: 60px;
+  height: 40px;
+  text-align: start;
+}
+
+.colunaCpfcnpj {
+  width: 20px;
+  height: 40px;
+  text-align: start;
+}
+
+.colunaBancoispb {
+  width: 10px;
+  height: 30px;
+  text-align: start;
+}
+
+.colunaReferenciadaempresa {
+  width:40px;
+  height: 40px;
+  text-align: start;
+}
+
+.colunaDatadopagamento {
+  width: 30px;
+  height: 40px;
+  text-align: start;
+}
+
+.colunaValor {
+  width: 30px;
+  height: 40px;
+  text-align: center;
+}
+
+.colunaTarifa {
+  width: 30px;
+  height: 40px;
+  text-align: center;
+}
+
+.colunaStatusdopagamento {
+  width: 25px;
+  height: 40px;
+  text-align: start;
+}
+
+.colunaMais {
+  width: 15px;
+  height: 40px;
+  text-align: start;
+}
+
 .paginacao {
   text-align: right;
   display: flex;
   justify-content: end;
-  margin-left: 5px;
+  margin-left: 1px;
 }
 
 .tabela-resultados thead th{
   vertical-align: middle;
   text-align: center;
+}
+
+.w-120 {
+  font-size: 2px;
 }
