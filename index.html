@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Terceiro desafio</title>  
         <link rel="shortcut icon" href="iconeItau.jpg">
+        <script src="onclick.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -196,7 +197,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-4">
-                            <input type="button" id="btnExibir" class="button" value="buscar">
+                            <input onclick="exibirTabela()" id="idBotao" class="button" value="buscar"/>
                         </div>
                         <div class="col-4">
                             <div class="exibirBuscaAvancada">
@@ -228,7 +229,7 @@
 <br>
                 
                     <div class="row col-12">
-                        <table class="table table-striped tabela-resultados" >
+                        <table class="table table-striped tabela-resultados" id="tabela">
                             <thead>
                                 <tr>
                                     <th class="colunaFavorecidobeneficiario">favorecido/beneficiário <img src="IconeSetaOposto.png" style="width:5%"></th>

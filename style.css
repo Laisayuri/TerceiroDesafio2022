@@ -190,7 +190,7 @@ body {
   text-transform: none;
   vertical-align: middle;
   font-size: 1rem;
-  
+  display: none;
 }
 
 .colunaFavorecidobeneficiario {
