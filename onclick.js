@@ -2,7 +2,7 @@
 function exibirTabela() {
     console.log('Teste')
     var tabela = document.getElementById("tabelaBusca");
-    tabela.style.display = "inline";
+    tabela.style.display = "table";
 
     var botao = document.getElementById("idBotao");
     botao.addEventListener("click", exibirTabela);
