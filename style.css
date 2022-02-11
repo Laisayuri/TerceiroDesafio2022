@@ -190,6 +190,9 @@ body {
   text-transform: none;
   vertical-align: middle;
   font-size: 1rem;
+}
+
+#tabelaBusca {
   display: none;
 }
 
